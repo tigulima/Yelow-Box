@@ -1,5 +1,5 @@
 ::selection {
-    background: lightskyblue;
+    background: #FFE55D;
     color: #111;
 }
 
@@ -71,9 +71,9 @@ object {
 
 .card:hover {
     box-shadow: 0 12px 16px 0 rgba(65, 151, 177, 0.034), 0 17px 50px 0 rgba(0, 217, 255, 0.041);
-    border: 2px solid lightskyblue;
+    border: 2px solid #FFE55D;
     cursor: pointer;
-    color: lightskyblue;
+    color: #FFE55D;
 }
 
 .card:hover .cardimg {
@@ -162,6 +162,7 @@ object {
     transition-duration: 0.4s;
     height: 25px;
     width: 25px;
+    margin-top: 5px;
 }
 
 .link {
@@ -171,7 +172,7 @@ object {
 }
 
 .link:hover {
-    color: lightskyblue;
+    color: #FFE55D;
 }
 
 .lost {
@@ -186,12 +187,12 @@ object {
 }
 
 .titlebig {
-    color: lightskyblue;
+    color: #FFE55D;
     font-size: 2rem;
 }
 
 .titlesmall {
-    color: lightskyblue;
+    color: #FFE55D;
     font-size: 1.6rem;
 }
 
@@ -221,7 +222,7 @@ object {
 }
 
 .sidebtn:hover .icon {
-    fill:lightskyblue;
+    fill:#FFE55D;
 }
 
 .footer {
@@ -234,6 +235,22 @@ object {
     margin: 10px;
     width: 100%;
 
+}
+
+.logocontainer {
+    width: 75vw;
+    height: 45vh;
+    margin-top: calc(50vh - 120px);
+    margin-left: 20vw
+}
+
+.logo {
+    font-family: ABeeZee;
+    font-size: 144px;
+    line-height: 170px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
 }
 
 @media screen and (max-width:1200px) {
