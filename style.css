@@ -54,45 +54,6 @@ object {
     max-width: 70vw;
 }
 
-.card {
-    background-color: #111;
-    justify-content: center;
-    align-content: center;
-    border: 2px solid transparent;
-    color: lightgrey;
-    transition-duration: 0.2s;
-    border-radius: 25px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    margin: 1rem;
-    height: 400px;
-    width: 300px;
-}
-
-.card:hover {
-    box-shadow: 0 12px 16px 0 rgba(177, 175, 65, 0.034), 0 17px 50px 0 rgba(0, 217, 255, 0.041);
-    border: 2px solid #FFE55D;
-    cursor: pointer;
-    color: #FFE55D;
-}
-
-.card:hover .cardimg {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.cardimg {
-    margin: auto;
-    border-radius: 15px;
-    margin-top: -23px !important;
-    width: 250px;
-    transition-duration: 0.4s;
-}
-
-.cardtext {
-    text-decoration: none;
-    color: inherit;
-    margin-top: 40px;
-}
-
 .center {
     margin-right: auto;
     margin-left: auto;
@@ -103,57 +64,6 @@ object {
 
 .container {
     margin: 75px;
-}
-
-.cover {
-    border-radius: 100%;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    max-width: 300px;
-    width: 50%;
-    transition-duration: 0.4s;
-}
-
-.cover:hover {
-    box-shadow: none;
-}
-
-.gallery {
-    display: flex;
-    margin-bottom: 100px;
-}
-
-.galleryimgright {
-    transition-duration: 0.4s;
-    border-radius: 25px;
-    width: 60vw;
-    margin: auto;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border-top-right-radius: 0px; 
-    border-bottom-right-radius: 0px;
-}
-
-.galleryimgright:hover {
-    box-shadow: none;
-}
-
-.galleryimgleft {
-    transition-duration: 0.4s;
-    border-radius: 25px;
-    width: 60vw;
-    margin: auto;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border-top-left-radius: 0px; 
-    border-bottom-left-radius: 0px;
-}
-
-.galleryimgleft:hover {
-    box-shadow: none;
-}
-
-.gallerytext {
-    width: 30vw;
-    margin:50px;
-    margin-top: 200px;
 }
 
 .icon {
@@ -172,13 +82,6 @@ object {
 
 .link:hover {
     color: #FFE55D;
-}
-
-.lost {
-    display: flex;
-    z-index: 9;
-    height: 100vh;
-    width: 100vw;
 }
 
 .pattern {
@@ -217,6 +120,7 @@ object {
     margin: 10px;
     top: 50%;
 }
+
 .sidebtn:hover {
     background-color: #333;
     cursor: pointer;
@@ -226,18 +130,6 @@ object {
 
 .sidebtn:hover .icon {
     fill:#FFE55D;
-}
-
-.footer {
-    background-color: #111;
-}
-
-.footertext {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1rem !important;
-    margin: 10px;
-    width: 100%;
-
 }
 
 .logocontainer {
@@ -255,6 +147,10 @@ object {
     text-align: center;
     letter-spacing: 0.5em;
     color: #E8E6DA;
+}
+
+style.bundle.css {
+    --primary: red;
 }
 
 @media screen and (max-width:1200px) {
